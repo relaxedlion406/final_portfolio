@@ -1,8 +1,5 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import {
-  BrowserRouter as Router
-} from "react-router-dom";
 
 export const NavBar = () => {
 
@@ -28,7 +25,6 @@ export const NavBar = () => {
   }
 
   return (
-    <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
         <span className="tagline">CSCI 1300 Final Portfolio</span>
@@ -36,13 +32,13 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>About_Me</Nav.Link>
+              <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>About Me</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </Router>
+    
   )
 }
