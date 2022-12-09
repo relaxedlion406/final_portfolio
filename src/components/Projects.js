@@ -35,7 +35,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="Projects">
       <Container>
         <Row>
           <Col size={12}>
@@ -72,8 +72,10 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
+                      <p>Loading...</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
+                      <p>Loading...</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

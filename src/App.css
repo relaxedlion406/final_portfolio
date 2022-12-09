@@ -90,7 +90,7 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
-nav.navbar.scrolled {
+nav.navbar.ed {
   padding: 0px 0;
   background-color: #121212;
 }
@@ -231,16 +231,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .development {
   padding: 100px 0 100px 0;
-  background-image: url('./assets/img/star_night.jpeg');
+  background-image: url('./assets/img/space.jpeg');
   background-position: top center;    
 }
 
 .development iframe {
   margin-top: 20px;
   margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
   position: relative;
-  background-color: aliceblue;
+  background-color: rgb(131, 168, 205);
   padding: 0 0 30px 0;
+}
+
+.development a {
+  background: linear-gradient(90.21deg, rgba(97, 156, 220, 0.5) -5.91%, rgba(87, 13, 112, 0.5) 111.58%);
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(97, 156, 220, 0.5) -5.91%, rgba(87, 13, 112, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  display: inline-block;
+  color: white;
+  margin-top: 2%;
+
+}
+
+.box {
+  text-align: center;
+  background: linear-gradient(90.21deg, rgba(97, 156, 220, 0.5) -5.91%, rgba(87, 13, 112, 0.5) 111.58%);
+  width: fit-content;
 }
 
 /************ Banner Css ************/
@@ -383,9 +405,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: linear-gradient(90.21deg, rgba(97, 156, 220, 0.5) -5.91%, rgba(87, 13, 112, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
-  margin-top: 10%;
   display: inline-block;
-  color: white
+  color: white;
+  margin-top: 20%;
   
 }
 
@@ -393,14 +415,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-image: url('./assets/img/star_night.jpeg');
-  
+  background-image: url('./assets/img/space.jpeg');
 }
+
+
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
 }
+
 .project p {
   color: #B8B8B8;
   font-size: 18px;
@@ -434,6 +458,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
+
 .project .nav.nav-pills .nav-link::before {
     content: "";
     position: absolute;
@@ -445,6 +470,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     z-index: -1;
     transition: 0.3s ease-in-out;
 }
+
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
