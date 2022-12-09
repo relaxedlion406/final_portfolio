@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/final_portfolio/static/css/main.3ef9bffd.css",
-    "main.js": "/final_portfolio/static/js/main.26f20813.js",
+    "main.css": "/final_portfolio/static/css/main.119dfdb2.css",
+    "main.js": "/final_portfolio/static/js/main.be3fc097.js",
     "static/media/space_img.jpeg": "/final_portfolio/static/media/space_img.8e0109e1ae15c86a9b0c.jpeg",
+    "static/media/space.jpeg": "/final_portfolio/static/media/space.3e23f58ce8295fcb97a9.jpeg",
     "static/media/header_img.png": "/final_portfolio/static/media/header_img.6182c22ebc46c450d63b.png",
-    "static/media/star_night.jpeg": "/final_portfolio/static/media/star_night.0c2fc2b7966c55bc1074.jpeg",
     "static/media/CentraNo2-Bold.ttf": "/final_portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/final_portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/final_portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -12,11 +12,11 @@
     "static/media/revicons.ttf": "/final_portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/final_portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/final_portfolio/index.html",
-    "main.3ef9bffd.css.map": "/final_portfolio/static/css/main.3ef9bffd.css.map",
-    "main.26f20813.js.map": "/final_portfolio/static/js/main.26f20813.js.map"
+    "main.119dfdb2.css.map": "/final_portfolio/static/css/main.119dfdb2.css.map",
+    "main.be3fc097.js.map": "/final_portfolio/static/js/main.be3fc097.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ef9bffd.css",
-    "static/js/main.26f20813.js"
+    "static/css/main.119dfdb2.css",
+    "static/js/main.be3fc097.js"
   ]
 }
