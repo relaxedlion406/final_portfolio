@@ -1,4 +1,4 @@
-import 'react-multi-carousel/lib/styles.css';
+
 
 export const AboutMe = () => {
   return (
