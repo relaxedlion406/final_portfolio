@@ -89,6 +89,8 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+  background-color: #121212;
+  height: 1px;
 }
 nav.navbar.ed {
   padding: 0px 0;
@@ -391,6 +393,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color:white;
   padding: 1.5rem 2rem;
   margin-right: 2rem;
+  margin-bottom: 2rem;
   border-radius: 0 50px 0 50px;
   display: flex;
   flex-direction: column;
