@@ -1,5 +1,4 @@
-
-
+/************ Cite from youtuber: webdecoded https://www.youtube.com/@webdecoded ************/
 export const AboutMe = () => {
   return (
     <section className="skill" id="AboutMe">

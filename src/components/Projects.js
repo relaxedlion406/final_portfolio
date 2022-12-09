@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-
+/************ Cite from youtuber: webdecoded https://www.youtube.com/@webdecoded ************/
 
 export const Projects = () => {
   const projects = [
