@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final_portfolio/static/css/main.119dfdb2.css",
-    "main.js": "/final_portfolio/static/js/main.be3fc097.js",
+    "main.css": "/final_portfolio/static/css/main.b6fdac19.css",
+    "main.js": "/final_portfolio/static/js/main.b47c232b.js",
     "static/media/space_img.jpeg": "/final_portfolio/static/media/space_img.8e0109e1ae15c86a9b0c.jpeg",
     "static/media/space.jpeg": "/final_portfolio/static/media/space.3e23f58ce8295fcb97a9.jpeg",
     "static/media/header_img.png": "/final_portfolio/static/media/header_img.6182c22ebc46c450d63b.png",
@@ -12,11 +12,11 @@
     "static/media/revicons.ttf": "/final_portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/final_portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/final_portfolio/index.html",
-    "main.119dfdb2.css.map": "/final_portfolio/static/css/main.119dfdb2.css.map",
-    "main.be3fc097.js.map": "/final_portfolio/static/js/main.be3fc097.js.map"
+    "main.b6fdac19.css.map": "/final_portfolio/static/css/main.b6fdac19.css.map",
+    "main.b47c232b.js.map": "/final_portfolio/static/js/main.b47c232b.js.map"
   },
   "entrypoints": [
-    "static/css/main.119dfdb2.css",
-    "static/js/main.be3fc097.js"
+    "static/css/main.b6fdac19.css",
+    "static/js/main.b47c232b.js"
   ]
 }
