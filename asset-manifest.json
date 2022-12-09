@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/final_portfolio/static/css/main.b6fdac19.css",
+    "main.css": "/final_portfolio/static/css/main.e6474b1c.css",
     "main.js": "/final_portfolio/static/js/main.b47c232b.js",
     "static/media/space_img.jpeg": "/final_portfolio/static/media/space_img.8e0109e1ae15c86a9b0c.jpeg",
     "static/media/space.jpeg": "/final_portfolio/static/media/space.3e23f58ce8295fcb97a9.jpeg",
@@ -8,15 +8,12 @@
     "static/media/CentraNo2-Bold.ttf": "/final_portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/final_portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/final_portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/revicons.eot": "/final_portfolio/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/final_portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/final_portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/final_portfolio/index.html",
-    "main.b6fdac19.css.map": "/final_portfolio/static/css/main.b6fdac19.css.map",
+    "main.e6474b1c.css.map": "/final_portfolio/static/css/main.e6474b1c.css.map",
     "main.b47c232b.js.map": "/final_portfolio/static/js/main.b47c232b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6fdac19.css",
+    "static/css/main.e6474b1c.css",
     "static/js/main.b47c232b.js"
   ]
 }
