@@ -4,10 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Banner } from "./Banner";
 import { AboutMe } from "./AboutMe";
 import { Projects } from "./Projects";
+import { NavBar } from "./NavBar";
 
 function Home() {
   return (
     <div className="App">
+      <NavBar/>
       <Banner/>
       <Projects/>   
       <AboutMe/>

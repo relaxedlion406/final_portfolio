@@ -32,7 +32,6 @@ html {
 body {
   font-weight: 400;
   overflow-x: hidden;
-  position: relative;
   background-color: #121212 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
@@ -203,6 +202,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: top center;    
 }
 
+.development_part p{
+  font-size: 25px;
+}
+
+.development_color h1, .development_color h2{
+  color: orange;
+}
+
 .development iframe {
   margin-top: 20px;
   margin-left: 20px;
@@ -226,12 +233,77 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 2%;
 
 }
+.list {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.bold_style {
+  font-weight: 'bold';
+  color: #121212;
+  background-color: #ffa600dd;
+}
 
 .box {
+  align-items: center;
   text-align: center;
   background: linear-gradient(90.21deg, rgba(97, 156, 220, 0.5) -5.91%, rgba(87, 13, 112, 0.5) 111.58%);
   width: fit-content;
 }
+.box iframe{
+  margin-left: 0%;
+}
+.box img {
+  margin-left: 90px;
+  width: 400px;
+  height: 200px;
+}
+
+.design {
+  background: linear-gradient(90.21deg, rgba(97, 156, 220, 0.5) -5.91%, rgba(87, 13, 112, 0.5) 111.58%);
+  width: fit-content;
+}
+.design iframe{
+  margin-left: 5%;
+}
+.design img {
+  margin-left: 5%;
+  width: 500px;
+  height: 400px;
+}
+
+
+
+.original {
+  align-items: center;
+  background: linear-gradient(90.21deg, rgba(97, 156, 220, 0.5) -5.91%, rgba(87, 13, 112, 0.5) 111.58%);
+  text-align: center;
+}
+.original img, .original iframe {
+  width: 500px;
+  height: 400px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.original a{
+  background: none;
+  border: 0ch;
+}
+
+.weensyos {
+  text-align: center;
+  background: linear-gradient(90.21deg, rgba(97, 156, 220, 0.5) -5.91%, rgba(87, 13, 112, 0.5) 111.58%);
+}
+
+.weensyos img {
+  width: min-content;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 
 /************ Banner Css ************/
 .banner {
@@ -333,7 +405,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 20px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    
+    margin-left: 45px;
+    margin-right: 10px;
+}
+
+.skill .question {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.image{
+ float: right;
+ width: 20%;
+ margin-right: 150px;
+ margin-top: -5%;
+}
+.image img {
+  width: min-content;
 }
 .skill-slider {
   width: 80%;
@@ -367,7 +456,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: all 0.2s ease;
 }
 .project .link {
-  background: linear-gradient(90.21deg, rgba(97, 156, 220, 0.5) -5.91%, rgba(87, 13, 112, 0.5) 111.58%);
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
@@ -375,6 +463,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   display: inline-block;
+  flex-wrap:wrap;
   color: white;
   margin-top: 20%;
   

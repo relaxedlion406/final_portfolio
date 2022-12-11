@@ -1,9 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from "./components/NavBar";
 import Home from "./components/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Development from "./components/Development";
+import Iterative from './components/Iterative';
+import ResponsiveRe from './components/ResponsiveRedesign';
+import WeensyOS from './components/WeensyOS';
+
 
 
 
@@ -11,10 +14,13 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <NavBar />
+      
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/project/development" element={<Development/>}/>
+        <Route path="/Projects/Development" element={<Development/>}/>
+        <Route path="/Projects/Iterative" element={<Iterative/>}/>
+        <Route path="/Projects/ResponsiveRedesign" element={<ResponsiveRe/>}/>
+        <Route path="/Projects/WeensyOS" element={<WeensyOS/>}/>
       </Routes>
       </div>
     </Router> 

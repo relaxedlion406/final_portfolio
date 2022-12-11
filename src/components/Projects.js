@@ -2,37 +2,39 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import NavBar from './NavBar';
 /************ Cite from youtuber: webdecoded https://www.youtube.com/@webdecoded ************/
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Development",
-      description: "Design & Development",
-      path: "/project/development",
-      
-    },
-    {
-      title: "Flutter",
-      description: "Design & Development",
-      path: "",
+      title: "Pick Cards!",
+      description: "A simple interactive interface to select your favorite characters in Harry Potter. ",
+      path: "/Projects/Development",
       
     },
     {
       title: "Iterative Design and Evaluation",
-      description: "Design & Development",
-      path: "",
+      description: "Go through the full process of mocking up a solution.",
+      path: "/Projects/Iterative",
       
     },
     
     {
       title: "Responsive Redesign",
-      description: "Design & Development",
-      path: "",
-      
+      description: "Identifing problem and redesign a website.",
+      path: "/Projects/ResponsiveRedesign", 
     },
    
   ];
+
+  const systems = [
+    { 
+      title: "WeensyOS",
+      description: "Write OS kernel code for a small operating system.",
+      path: "/Projects/WeensyOS",
+    },
+  ]
 
   return (
     <section className="project" id="Projects">
@@ -71,8 +73,19 @@ export const Projects = () => {
                        }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Loading...</p>
+                    <Tab.Pane eventKey="second">
+                      <Row>
+                       {
+                        systems.map((project, index) => {
+                          return (
+                            <ProjectCard
+                              key={index}
+                              {...project}>
+                            </ProjectCard>
+                          )
+                        })
+                       }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Loading...</p>

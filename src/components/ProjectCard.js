@@ -6,7 +6,7 @@ export const ProjectCard = ({ title, description, path}) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="project-box">
-        <div className="proj-txtx">
+        <div>
           <h4>{title}</h4>
           <span>{description}</span><br></br>
           <Link to={path} className='link'>Learn More</Link>
