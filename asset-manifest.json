@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/final_portfolio/static/css/main.cd7b57c7.css",
-    "main.js": "/final_portfolio/static/js/main.b47c232b.js",
+    "main.css": "/final_portfolio/static/css/main.778a2f3d.css",
+    "main.js": "/final_portfolio/static/js/main.a647c42d.js",
+    "static/media/lofi.pdf": "/final_portfolio/static/media/lofi.bb805f2ad21d63fa1bad.pdf",
+    "static/media/original_page.png": "/final_portfolio/static/media/original_page.1213773da32bb24cff84.png",
+    "static/media/lo-fi.png": "/final_portfolio/static/media/lo-fi.1451705c9340d5123887.png",
     "static/media/space_img.jpeg": "/final_portfolio/static/media/space_img.8e0109e1ae15c86a9b0c.jpeg",
+    "static/media/ipad.png": "/final_portfolio/static/media/ipad.442141796629d9c08798.png",
+    "static/media/iphone.png": "/final_portfolio/static/media/iphone.0bb42496bd19a0e787c0.png",
     "static/media/space.jpeg": "/final_portfolio/static/media/space.3e23f58ce8295fcb97a9.jpeg",
+    "static/media/me.png": "/final_portfolio/static/media/me.777e6d12078f92fca748.png",
     "static/media/header_img.png": "/final_portfolio/static/media/header_img.6182c22ebc46c450d63b.png",
+    "static/media/designGuide.png": "/final_portfolio/static/media/designGuide.c33bcd7c18054836ae4d.png",
     "static/media/CentraNo2-Bold.ttf": "/final_portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/final_portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/final_portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/weensy.gif": "/final_portfolio/static/media/weensy.6d2b99f2dcfb6129cf7e.gif",
     "index.html": "/final_portfolio/index.html",
-    "main.cd7b57c7.css.map": "/final_portfolio/static/css/main.cd7b57c7.css.map",
-    "main.b47c232b.js.map": "/final_portfolio/static/js/main.b47c232b.js.map"
+    "main.778a2f3d.css.map": "/final_portfolio/static/css/main.778a2f3d.css.map",
+    "main.a647c42d.js.map": "/final_portfolio/static/js/main.a647c42d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd7b57c7.css",
-    "static/js/main.b47c232b.js"
+    "static/css/main.778a2f3d.css",
+    "static/js/main.a647c42d.js"
   ]
 }
