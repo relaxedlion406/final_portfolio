@@ -17,14 +17,14 @@ export const AboutMe = () => {
                             <div className="image">
                             <img src={mePhoto}></img>
                             </div>
-                            <p >1. Q: What is your current role? <br></br>
+                            <p><span className="color">1. Q: What is your current role?</span> <br></br>
                             A: I am a student from Brown University🐻. </p>
-                            <p >2. Q: What do you plan to do in the future?  <br></br>
+                            <p ><span className="color">2. Q: What do you plan to do in the future?</span>  <br></br>
                             A: I'm planning to develop a web application which has something to do with Harry Potter🧙 and the Universe🌍. </p>
-                            <p >3. Q: What skills do you have?   <br></br>
+                            <p ><span className="color">3. Q: What skills do you have?</span>   <br></br>
                             A: Python, Java, C/C++, C, JavaScript, HTML/CSS...💻
                             </p>
-                            <p>4. Q: What do you like to do in your free time?   <br></br>
+                            <p> <span className="color">4.Q: What do you like to do in your free time?</span>   <br></br>
                             A: Photography📹, Dancing💃, Jogging🏃 and meditation🧘...
                             </p>
                             
