@@ -13,7 +13,7 @@ const ResponsiveRe = () => {
              <NavBarProject/>
             <Container className="development_part">
                 <h1>Responsive Redesign</h1>
-                <p> Time Duration: October, 2022<br></br>
+                <p> Project Duration: October, 2022<br></br>
                     Programming Language: HTML/CSS <br></br>
                     Team Size: 1</p> 
 
