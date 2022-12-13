@@ -9,7 +9,7 @@ const Iterative = () => {
             <NavBarProject/>
             <Container className="development_part development_color">
                 <h1>Iterative Design: Popsy</h1>
-                <p>Time Duration: November 2022 <br></br>
+                <p>Project Duration: November 2022 <br></br>
                     Programming Language: HTML/CSS <br></br>
                     Team Size: 4</p> 
                 <br></br>
