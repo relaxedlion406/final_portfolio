@@ -9,7 +9,7 @@ const Development = () => {
             <Container className="development_part">
                 <div>
                 <h1>Pick Cards</h1>
-                 <p>Time Duration: November 2022<br></br>
+                 <p>Project Duration: November 2022<br></br>
                     Programming Language: Javascript(React) <br></br>
                     Team Size: 1</p> 
                 <br></br>
