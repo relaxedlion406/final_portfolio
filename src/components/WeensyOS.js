@@ -12,7 +12,7 @@ const WeensyOS= () => {
                 <div>
                 <h1>WeensyOS</h1>
                 <div>    
-                <p>Time Duration: March 2022 - April 2022 <br></br>
+                <p>Project Duration: March 2022 - April 2022 <br></br>
                     Programming Language: C++ <br></br>
                     Team Size: 1</p> 
                 </div>
