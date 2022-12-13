@@ -58,7 +58,7 @@ const Iterative = () => {
                 <div>
                     <br></br>
                     <h2>User Testing</h2>
-                    <p>We conduct 3 user-testing test with User A, User B and User C with bellow tasks. </p>
+                    <p>We conduct 3 user-testing test with User A, User B and User C with following tasks. </p>
                     <div>
                         <li>
                             Try the demo of the website
